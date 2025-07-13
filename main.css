@@ -1,0 +1,348 @@
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+     font-size: 2.5rem;
+}
+
+h2{
+     font-size: 1.8rem;
+     color: #1a1a40;
+     font-weight: bold;
+}
+
+h3{
+    font-size: 1.4rem;
+    color: #333;
+    line-height: 1.5;
+}
+
+h4{
+    font-size: 1.3rem;
+    color: #333;
+    line-height: 1.5;
+}
+
+a, p{
+     font-size: 1.2rem;
+}
+
+body{
+    background-color: #f0f0f0;
+    color: black;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+main section{
+    margin-bottom: 20px;
+    padding: 20px 0;
+    border-bottom: 1px solid #1a1a40;
+}
+
+main section:last-of-type{
+    border-bottom: none;
+}
+
+/*
+Header
+*/
+
+.header{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    background-color: #444;
+    height: 50px;
+}
+
+.header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    list-style: none;
+}
+
+.header nav{
+    justify-content: center;
+}
+
+.header a{
+    text-decoration:none;
+    color: #f5f5f5;
+}
+
+/*
+Banner
+*/
+.banner{
+    text-align: center;
+    
+}
+
+.banner span{
+    color: #ff8431;
+    font-weight:bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.banner .imgBanner{
+    width: 100%;
+    max-width: 300px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.35);
+}
+
+.banner h1,
+.banner h3{
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.banner h1{
+    color: #303030;
+}
+
+.banner h3{
+    color: #474747;
+}
+
+.banner .botaoBanner{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0099ff;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.botaoBanner:hover{
+    background-color: #0088cc;
+    transform: scale(1.1);
+}
+
+/*
+Sabores
+*/
+
+.sabores span{
+    color: #1a1a40;
+    font-weight:bolder;
+}
+
+.sabores h2{
+    margin: 10px;
+}
+
+.sabores img{
+    width: 100%;
+    width: auto;
+    max-height: 250px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.35);
+}
+
+.sabores .imgContainer{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    margin-bottom: 50px;
+}
+
+
+
+.sabores .imgContainer h3{
+    margin: 10px;
+}
+
+/*
+Perguntas frequentes
+*/
+
+.duvidas h2{
+    margin-bottom: 20px;
+}
+
+.duvidas div .perguntas {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #333;
+    margin-bottom: 15px;
+    margin-top: 25px;
+}
+
+.resposta{
+    margin-bottom: 30px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease;
+}
+
+.resposta.ativa{
+    max-height: 300px;
+}
+
+.icon {
+  transition: transform 0.3s ease;
+  width: 24px;
+  height: 24px;
+}
+
+
+
+/*
+Contacto
+*/
+
+.contato a{
+    text-decoration: none;
+    color: #333;
+}
+
+.contato .redesSociais a{
+    display: flex;
+    justify-content: left;
+}
+
+.redesSociais{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 4px;
+}
+
+.contato a img:hover{
+    opacity: 0.7;
+    transform: scale(1.20);
+    transition: all 0.2s ease;
+}
+
+.redesSociais a img:hover{
+    opacity: 0.7;
+    transform: scale(1.20);
+    transition: all 0.2s ease;
+}
+
+.contato img{
+    width: 35px;
+    height: 35px;
+}
+
+.contato .redesSociais img{
+    width: 25px;
+    height: 25px;
+}
+
+/*
+Rodapé
+*/
+.rodape{
+    background-color: #444;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f5f5f5;
+}
+
+
+@media (min-width: 1024px){
+    h1{
+        font-size: 2.8rem;
+    }
+
+    h2{
+        font-size: 2.5rem;
+    }
+    h3{
+        font-size: 2.2rem;
+    }
+
+    a, p{
+        font-size: 1.5rem;
+    }
+    main section{
+        margin-bottom: 50px;
+        padding: 50px 0;
+        border-bottom: 2px solid #1a1a40;
+    }
+
+    /*
+    Header
+    */
+
+    .header ul{
+        gap: 70px;
+    }
+
+    /*
+    Banner
+    */
+
+    .banner .imgBanner{
+        max-width: 550px;
+    }
+    .banner h1,
+    .banner h3{
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    .banner .botaoBanner{
+        margin-top: 20px;
+        padding: 20px 30px;
+    
+    }
+    
+    /*
+    Sabores
+    */
+
+    .sabores img{
+        max-height: 450px;
+    }
+    .sabores .imgContainer{
+        align-items:center;
+        gap: 40px;
+        
+    }
+
+    /*
+    Perguntas
+    */
+
+    .icon {
+        width: 33px;
+        height: 33px;
+}
+
+    /*
+    Contatos
+    */
+
+    .contato img{
+        width: 55px;
+        height: 55px;
+    }
+
+    .contato .redesSociais img{
+        width: 40px;
+        height: 40px;
+    }
+}
