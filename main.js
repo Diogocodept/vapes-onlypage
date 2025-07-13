@@ -7,10 +7,10 @@ icones.forEach(function (icone) {
 
 
     if (resposta.classList.contains("ativa")) {
-      icone.src = "assets/img/minus.png";
+      icone.src = "minus.png";
       icone.alt = "fechar resposta";
     } else {
-      icone.src = "assets/img/plus.png";
+      icone.src = "plus.png";
       icone.alt = "abrir resposta";
     } 
   });
