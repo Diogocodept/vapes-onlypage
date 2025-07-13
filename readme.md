@@ -22,7 +22,7 @@ Este projeto é um site de página única desenvolvido para divulgar produtos de
 
 ## 🔗 Link do site online
 
-👉 [Aguardando publicação no GitHub Pages]
+👉 [https://diogocodept.github.io/vapes-onlypage/]
 
 
 
