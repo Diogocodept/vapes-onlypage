@@ -63,6 +63,7 @@ Header
     align-items: center;
     background-color: #444;
     height: 50px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
 }
 
 .header ul{
@@ -81,6 +82,24 @@ Header
 .header a{
     text-decoration:none;
     color: #f5f5f5;
+}
+
+nav, header{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: #444;
+}
+
+nav a{
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+nav a:hover{
+    transition: all 0.3s ease;
+    transform: scale(1.1);
+    color: #ff8431;
 }
 
 /*
