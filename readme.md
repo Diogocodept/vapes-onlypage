@@ -26,9 +26,10 @@ Este projeto é um site de página única desenvolvido para divulgar produtos de
 
 
 
-## 🖼️ Captura de ecrã (em breve)
+## 🖼️ Captura de ecrã
 
->[Screenshot do site](assets/img/screenShot1.jpeg)` 
+![Screenshot 1](screenShot1.jpeg)
+![Screenshot 2](screenShot2.jpeg)
 
 
 ## 📁 Estrutura do projeto
